@@ -1,0 +1,56 @@
+.w-100 {
+  height: 550px;
+}
+
+.naver1 {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.naver1:hover {
+  background-color: #8cbf3f;
+  border-radius: 35%;
+}
+
+.paragraph {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.headlines {
+  text-align: center;
+  font-size: 70px;
+  color: #8cbf3f;
+  font-family: "Pattaya";
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img {
+  width: 215px;
+  height: 215px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-height: 600px) {
+ .b {
+  height: 300px;
+  width: 100vw;
+  }}
